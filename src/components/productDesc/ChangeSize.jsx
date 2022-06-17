@@ -19,17 +19,17 @@ export const Size = () => {
 
 // change color Component
 export const Color = () => {
-    const [size, setSize] = useState('Black')
+    const [color, setColor] = useState('Black')
     return (
         <div className="mt-6">
-            <h4> <strong>Size: {size}</strong></h4>
+            <h4> <strong>Color: {color}</strong></h4>
 
             <div className="flex text-3xl gap-8 mt-3">
-                <button className="bg-black p-5" onClick={() => setSize('Black')}></button>
-                <button className="bg-blue-700 p-5" onClick={() => setSize('Blue')}></button>
-                <button className="bg-yellow-500 p-5" onClick={() => setSize('Yellow')}></button>
-                <button className="bg-red-700 p-5" onClick={() => setSize('Red')}></button>
-                <button className="bg-green-700 p-5" onClick={() => setSize('Green')}></button>
+                <button className="bg-black p-5" onClick={() => setColor('Black')}></button>
+                <button className="bg-blue-700 p-5" onClick={() => setColor('Blue')}></button>
+                <button className="bg-yellow-500 p-5" onClick={() => setColor('Yellow')}></button>
+                <button className="bg-red-700 p-5" onClick={() => setColor('Red')}></button>
+                <button className="bg-green-700 p-5" onClick={() => setColor('Green')}></button>
             </div>
         </div>
     )
